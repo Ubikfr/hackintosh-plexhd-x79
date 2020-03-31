@@ -15,3 +15,18 @@ Type|Item|Price
 
 ## Screenshot
  <img src="img/screenshot.jpg" width="auto" alt="Screenshot MacOS ">
+
+##  BIOS Configuration
+
+ - Legacy USB Support: [Enabled]
+ - XHCI Hand-off: [Enabled]
+ - EHCI Hand-off: [Enabled]
+ - USB Mass Storage Driver Support: [Enabled]
+ - Hyper-threading: [Enabled]
+ - Intel(R) VT-x : [Enabled]
+ - Intel(R) VT-d : [Disabled]
+ - Launch CSM: [Enabled]
+ - Boot option filter: [UEFI only]
+ - Launch Storage OpROM policy : [UEFI only]
+ - Launch Video OpROM policy : [UEFI only]
+
