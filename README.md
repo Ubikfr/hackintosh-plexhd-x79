@@ -1,6 +1,13 @@
-# Hackintosh / MacOS Mojave / Xeon E5-2660 / X79 (PlexHD X79 Turbo V1.03) / Clover
+# Hackintosh on PlexHD X79 Turbo V1.03
+
+Hackintosh running MacOS Mojave (10.14.6 )
+Xeon E5-2660
+X79 (PlexHD X79 Turbo V1.03)
+Clover (v5102)
+
 
 ## Configuration
+
 Type|Item|Price
 :----|:----|:----
 **CPU** | [Intel Xeon E5-2660 2.2 GHz 8-Core OEM/Tray Processor](https://fr.aliexpress.com/item/4000097650923.html) |32€
@@ -14,14 +21,15 @@ Type|Item|Price
  **Total** | | **462€**
 
 ## Screenshot
+
  <img src="img/screenshot.jpg" width="auto" alt="Screenshot MacOS ">
 
 ##  BIOS Configuration
 
+ - Above 4G decoding: [Disabled]
  - Legacy USB Support: [Enabled]
  - XHCI Hand-off: [Enabled]
  - EHCI Hand-off: [Enabled]
- - USB Mass Storage Driver Support: [Enabled]
  - Hyper-threading: [Enabled]
  - Intel(R) VT-x : [Enabled]
  - Intel(R) VT-d : [Disabled]
