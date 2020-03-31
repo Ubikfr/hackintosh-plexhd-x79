@@ -1,9 +1,9 @@
 # Hackintosh on PlexHD X79 Turbo V1.03
 
-Hackintosh running MacOS Mojave (10.14.6 )
-Xeon E5-2660
-X79 (PlexHD X79 Turbo V1.03)
-Clover (v5102)
+Hackintosh running MacOS Mojave (10.14.6 )  
+Xeon E5-2660  
+X79 (PlexHD X79 Turbo V1.03)  
+Clover (v5102)  
 
 
 ## Configuration
