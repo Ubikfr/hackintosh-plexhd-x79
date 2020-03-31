@@ -10,6 +10,6 @@ Type|Item|Price
 **Memory** | [Samsung 32 GB (1 x 8 GB) DDR3-1333 ECC](https://www.samsung.com/semiconductor/dram/module/M393B1K70CH0-YH9/) |40€
 **Video Card** | [Sapphire Radeon RX 570 4 GB NITRO+ Video Card](https://www.ebay.fr/itm/Sapphire-NITRO-Radeon-RX-570-4Gb-GDDR5/114047657582) |80€
 **Hard Drive** | [SSD F8 PLUS M.2 2280 PCIE NVME 240 GB](https://www.ldlc.com/fiche/PB00263748.html) |65€
-**Case** | [Aerocool AERO-500G RGB ATX Mid Tower Case](https://pcpartpicker.com/product/rcndnQ/aerocool-aero-500g-rgb-atx-mid-tower-case-aero-500g-rgb) |80€
+**Case** | [Aerocool AERO-500G RGB ATX Mid Tower Case](https://pcpartpicker.com/product/rcndnQ/aerocool-aero-500g-rgb-atx-mid-tower-case-aero-500g-rgb) |50€
 **Power Supply** | [Seasonic M12II EVO 520 SS-520GM2 520W 80+ Bronze EVO Edition](https://www.amazon.com/Seasonic-M12II-520-SS-520GM2-Capacitor/dp/B0038T0V8Q) |76€
- | **Total** | **$492.00**
+ | **Total** | **$462.00**
