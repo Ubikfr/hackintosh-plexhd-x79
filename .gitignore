@@ -1,2 +1,6 @@
+.DS_Store
+**/.DS_Store
 **/config*.plist
-
+EFI/CLOVER/misc/preboot.log
+EFI/CLOVER/ACPI/patched/ssdt.orig.aml
+EFI/CLOVER/ACPI/origin/*
