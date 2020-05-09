@@ -1,0 +1,114 @@
+19:703  9:773  Found BIOS RSDP at F0000
+19:703  0:000  Printing ACPI tables from RSDP F0000 ...
+19:703  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+19:703  0:000    (Xsdt: BABDB080, Rsdt: BABDB028)
+19:703  0:000    BABDB080: 'XSDT', 'A M I', Rev: 1, Len: 132
+19:703  0:000    BABDB028: 'RSDT', 'A M I', Rev: 1, Len: 84
+19:703  0:000    Tables in Xsdt: 12
+19:703  0:000    0. BABE3768: 'FACP', 'A M I', Rev: 5, Len: 268
+19:703  0:000        (Dsdt: BABDB1A0, Facs: BB19CF80, XDsdt: BABDB1A0, XFacs: 0)
+19:703  0:000        BABDB1A0: 'DSDT', 'A M I', Rev: 2, Len: 34247
+19:705  0:001        BB19CF80: 'FACS', Ver: 2, Len: 64
+19:705  0:000    1. BABE3878: 'APIC', 'A M I', Rev: 3, Len: 368
+19:705  0:000    2. BABE39E8: 'FPDT', 'A M I', Rev: 1, Len: 68
+19:705  0:000    3. BABE3A30: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+19:705  0:000    4. BABE3A70: 'HPET', 'A M I', Rev: 1, Len: 56
+19:705  0:000    5. BABE3AA8: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+19:705  0:000    6. BACB0E28: 'VFCT', 'A M I', Rev: 1, Len: 60548
+19:705  0:000    7. BACBFAB0: 'BGRT', 'A M I', Rev: 0, Len: 56
+19:705  0:000    8. BACBFAE8: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+19:705  0:000    9. BACBFC18: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+19:705  0:000    10. BACBFE48: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+19:705  0:000    11. BACBFEF0: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+19:705  0:000    Tables in Rsdt: 12
+19:705  0:000    0. BABDB118: 'FACP', 'A M I', Rev: 2, Len: 132
+19:705  0:000        (Dsdt: BABDB1A0, Facs: BB19CF40)
+19:705  0:000        BABDB1A0: 'DSDT', 'A M I', Rev: 2, Len: 34247
+19:706  0:001        BB19CF40: 'FACS', Ver: 0, Len: 64
+19:706  0:000    1. BABE3878: 'APIC', 'A M I', Rev: 3, Len: 368
+19:706  0:000    2. BABE39E8: 'FPDT', 'A M I', Rev: 1, Len: 68
+19:706  0:000    3. BABE3A30: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+19:706  0:000    4. BABE3A70: 'HPET', 'A M I', Rev: 1, Len: 56
+19:706  0:000    5. BABE3AA8: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+19:706  0:000    6. BACB0E28: 'VFCT', 'A M I', Rev: 1, Len: 60548
+19:706  0:000    7. BACBFAB0: 'BGRT', 'A M I', Rev: 0, Len: 56
+19:706  0:000    8. BACBFAE8: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+19:706  0:000    9. BACBFC18: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+19:706  0:000    10. BACBFE48: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+19:706  0:000    11. BACBFEF0: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+19:706  0:000  Found UEFI Acpi 2.0 RSDP at BABDB000
+19:706  0:000  Saving ACPI tables from RSDP BABDB000 to EFI\CLOVER\ACPI\origin ...
+19:706  0:000   BABDB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+19:790  0:083    (Xsdt: BABDB080, Rsdt: BABDB028)
+19:790  0:000    BABDB080: 'XSDT', 'A M I', Rev: 1, Len: 132 -> XSDT.aml
+19:792  0:002    BABDB028: 'RSDT', 'A M I', Rev: 1, Len: 84 -> RSDT.aml
+19:795  0:002    Tables in Xsdt: 12
+19:795  0:000    0. BABE3768: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+19:798  0:002        (Dsdt: BABDB1A0, Facs: BB19CF80, XDsdt: BABDB1A0, XFacs: 0)
+19:798  0:000        BABDB1A0: 'DSDT', 'A M I', Rev: 2, Len: 34247 -> DSDT.aml
+19:801  0:003        BB19CF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+19:804  0:002    1. BABE3878: 'APIC', 'A M I', Rev: 3, Len: 368 -> APIC.aml
+19:807  0:002    2. BABE39E8: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+19:810  0:003    3. BABE3A30: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60 -> MCFG.aml
+19:813  0:002    4. BABE3A70: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+19:816  0:002    5. BABE3AA8: 'SSDT', 'CpuPm', Rev: 2, Len: 840576 -> SSDT-0-CpuPm.aml
+19:896  0:080    6. BACB0E28: 'VFCT', 'A M I', Rev: 1, Len: 60548 -> VFCT.aml
+19:923  0:026    7. BACBFAB0: 'BGRT', 'A M I', Rev: 0, Len: 56 -> BGRT.aml
+19:925  0:002    8. BACBFAE8: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304 -> EINJ.aml
+19:928  0:002    9. BACBFC18: 'ERST', 'AMI ERST', Rev: 1, Len: 560 -> ERST.aml
+19:933  0:004    10. BACBFE48: 'HEST', 'AMI HEST', Rev: 1, Len: 168 -> HEST.aml
+19:935  0:002    11. BACBFEF0: 'BERT', 'AMI BERT', Rev: 1, Len: 48 -> BERT.aml
+19:938  0:002    Tables in Rsdt: 12
+19:938  0:000    0. BABDB118: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+19:940  0:002        (Dsdt: BABDB1A0, Facs: BB19CF40)
+19:940  0:000        BABDB1A0: 'DSDT', 'A M I', Rev: 2, Len: 34247
+19:941  0:000        BB19CF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+19:944  0:002    1. BABE3878: 'APIC', 'A M I', Rev: 3, Len: 368
+19:944  0:000    2. BABE39E8: 'FPDT', 'A M I', Rev: 1, Len: 68
+19:944  0:000    3. BABE3A30: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+19:944  0:000    4. BABE3A70: 'HPET', 'A M I', Rev: 1, Len: 56
+19:944  0:000    5. BABE3AA8: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+19:944  0:000    6. BACB0E28: 'VFCT', 'A M I', Rev: 1, Len: 60548
+19:944  0:000    7. BACBFAB0: 'BGRT', 'A M I', Rev: 0, Len: 56
+19:944  0:000    8. BACBFAE8: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+19:944  0:000    9. BACBFC18: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+19:944  0:000    10. BACBFE48: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+19:944  0:000    11. BACBFEF0: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+19:944  0:000  Found UEFI Acpi 1.0 RSDP at BABDB000
+19:944  0:000  Printing ACPI tables from RSDP BABDB000 ...
+19:944  0:000   BABDB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+19:944  0:000    (Xsdt: BABDB080, Rsdt: BABDB028)
+19:944  0:000    BABDB080: 'XSDT', 'A M I', Rev: 1, Len: 132
+19:944  0:000    BABDB028: 'RSDT', 'A M I', Rev: 1, Len: 84
+19:944  0:000    Tables in Xsdt: 12
+19:944  0:000    0. BABE3768: 'FACP', 'A M I', Rev: 5, Len: 268
+19:944  0:000        (Dsdt: BABDB1A0, Facs: BB19CF80, XDsdt: BABDB1A0, XFacs: 0)
+19:944  0:000        BABDB1A0: 'DSDT', 'A M I', Rev: 2, Len: 34247
+19:945  0:001        BB19CF80: 'FACS', Ver: 2, Len: 64
+19:945  0:000    1. BABE3878: 'APIC', 'A M I', Rev: 3, Len: 368
+19:945  0:000    2. BABE39E8: 'FPDT', 'A M I', Rev: 1, Len: 68
+19:945  0:000    3. BABE3A30: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+19:945  0:000    4. BABE3A70: 'HPET', 'A M I', Rev: 1, Len: 56
+19:945  0:000    5. BABE3AA8: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+19:945  0:000    6. BACB0E28: 'VFCT', 'A M I', Rev: 1, Len: 60548
+19:945  0:000    7. BACBFAB0: 'BGRT', 'A M I', Rev: 0, Len: 56
+19:945  0:000    8. BACBFAE8: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+19:945  0:000    9. BACBFC18: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+19:945  0:000    10. BACBFE48: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+19:945  0:000    11. BACBFEF0: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+19:945  0:000    Tables in Rsdt: 12
+19:945  0:000    0. BABDB118: 'FACP', 'A M I', Rev: 2, Len: 132
+19:945  0:000        (Dsdt: BABDB1A0, Facs: BB19CF40)
+19:945  0:000        BABDB1A0: 'DSDT', 'A M I', Rev: 2, Len: 34247
+19:947  0:001        BB19CF40: 'FACS', Ver: 0, Len: 64
+19:947  0:000    1. BABE3878: 'APIC', 'A M I', Rev: 3, Len: 368
+19:947  0:000    2. BABE39E8: 'FPDT', 'A M I', Rev: 1, Len: 68
+19:947  0:000    3. BABE3A30: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+19:947  0:000    4. BABE3A70: 'HPET', 'A M I', Rev: 1, Len: 56
+19:947  0:000    5. BABE3AA8: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+19:947  0:000    6. BACB0E28: 'VFCT', 'A M I', Rev: 1, Len: 60548
+19:947  0:000    7. BACBFAB0: 'BGRT', 'A M I', Rev: 0, Len: 56
+19:947  0:000    8. BACBFAE8: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+19:947  0:000    9. BACBFC18: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+19:947  0:000    10. BACBFE48: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+19:947  0:000    11. BACBFEF0: 'BERT', 'AMI BERT', Rev: 1, Len: 48

@@ -22,7 +22,7 @@ Type|Item|Price
 
 ## Screenshot
 
- <img src="img/screenshot.jpg" width="auto" alt="Screenshot MacOS ">
+ <img src="img/screenshot.png" width="auto" alt="Screenshot MacOS ">
 
 ##  BIOS Configuration
 
